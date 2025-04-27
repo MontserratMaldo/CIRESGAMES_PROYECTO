@@ -1,0 +1,95 @@
+/* GLOBAL RESET */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Press Start 2P', cursive;
+  background: radial-gradient(165.19% 130.19% at 7.92% 7.96%, 
+  rgba(95, 156, 235, 0.65) 12.02%, 
+  rgba(24, 82, 157, 0.65) 99.52%
+);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+/* ICONOS SUPERIORES */
+.icono-sonido, .icono-uv {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+
+.icono-sonido {
+  display: block;
+  background-image: url('/assets/Iconos/icono-sonido.png');
+  top: 3%;
+  right: 6%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.icono-sonido.activo {
+  opacity: 0.5;
+}
+
+.icono-uv {
+  display: block;
+  background-image: url('assets/Iconos/icono-uv.png');
+  top: 3%;
+  right: 4%;
+  transform: translate(50%, -50%);
+}
+
+.icono-sonido:hover,
+.icono-uv:hover {
+  opacity: 0.7;
+}
+
+/* BOTONES */
+button {
+  background-color: #153243;
+  color: white;
+  border: 2px solid white;
+  padding: 8px 16px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 22px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: #ffffff;
+  color: #153243;
+  border-color: #153243;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* INPUTS */
+.input-nombre {
+  padding: 8px 12px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 32px;
+  border: none;
+  background-color: #153243;
+  border: 2px solid white;
+  color: white;
+  margin: 10px 0;
+  width: 80%;
+}

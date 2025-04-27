@@ -1,0 +1,85 @@
+/* Sección de los botones superiores */
+  .icono-sonido, .icono-uv {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+    
+  .icono-sonido {
+    background-image: url('assets/Iconos/icono-sonido.png');
+    top: 3%;
+    right: 6%;
+    transform: translate(50%, -50%);
+    cursor: pointer;
+  }
+      
+  .icono-sonido.activo {
+    opacity: 0.5;
+  }
+      
+  .icono-uv {
+    background-image: url('assets/Iconos/icono-uv.png');
+    display: block;
+    top: 3%;
+    right: 2%;
+    transform: translate(50%, -50%);
+  }
+    
+    /* Sección de créditos */
+    .contenedor-creditos {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end; /* alineación a la derecha */
+      justify-content: center;
+      text-align: right;
+      padding: 40px;
+      height: 100vh;
+      color: white;
+      font-family: 'Press Start 2P', cursive;
+    }
+    
+    .contenedor-creditos h1,
+    .contenedor-creditos h2,
+    .contenedor-creditos p,
+    .contenedor-creditos ul,
+    .contenedor-creditos li {
+      text-align: right;
+      width: 100%;
+      margin: 0;
+    }
+    
+    .contenedor-creditos ul {
+      list-style: none;
+      padding-right: 0;
+      margin-top: 10px;
+    }
+    
+    .contenedor-creditos li {
+      font-size: 12px;
+      margin: 4px 0;
+    }
+    
+    .contenedor-creditos button {
+      align-self: flex-end;
+      margin-top: 40px;
+      padding: 6px 12px;
+      font-size: 12px;
+      font-family: 'Press Start 2P', cursive;
+      background-color: #fbc531;
+      color: #000;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    
+    .contenedor-creditos button:hover {
+      background-color: #e1a500;
+    }
+    
+    
+    
+        

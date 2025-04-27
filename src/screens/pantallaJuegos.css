@@ -1,0 +1,90 @@
+/* Estilos para los botones de actividad (manteniendo tu estilo original) */
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  
+  .titulo {
+    font-size: 38px;
+    color: #fbc531;
+    margin: 16px 0;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+  .subtitulo {
+    font-size: 20px;
+    margin: 5px 0;
+    color: #fff;
+  }
+
+.actividad-btn {
+    background-color: #153243;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 16px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 22px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    border-radius: 5px;
+    min-width: 200px;
+    text-align: center;
+  }
+  
+  .actividad-btn:hover {
+    transform: scale(1.1);
+    background-color: #ffffff;
+    color: #153243;
+    border-color: #153243;
+  }
+  
+  .actividad-btn:active {
+    transform: scale(0.95);
+  }
+  
+  /* Estilos específicos para el botón de regresar */
+  .boton-regresar {
+    background-color: #fbc531; /* Color amarillo similar al título */
+    color: #000;
+    border: 2px solid #000;
+    padding: 5px 14px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;    
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+    margin-top: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .boton-regresar:hover {
+    background-color: #e1b12c;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .boton-regresar:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .boton-regreso-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  /*Separación entre actividades*/
+  .actividades-container1, .actividades-container2 {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 40px;
+  }

@@ -1,0 +1,51 @@
+.contenedor-inicio {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 12px; /*redondear esquinas*/
+}
+
+.contenedor-inicio h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.contenedor-inicio h2 {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.contenedor-inicio h3 {
+  font-size: 38px;
+  color: #fbc531;
+  margin: 16px 0;
+}
+
+.botones-principales {
+  position: absolute;
+  top: 78%;
+  left: 46%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.boton-salir {
+  position: absolute;
+  top: 78%;
+  left: 59%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+
+
+
